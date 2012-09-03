@@ -3,163 +3,220 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>The world of Pris Roos</title>
-		<meta name="description" content="Pris Roos' interview">
+		<title>Sassify!</title>
+		<meta name="description" content="Sass 101">
 		<meta name="author" content="Ivana Setiawan">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link rel="stylesheet" href="public/css/default.css">
-		<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Simonetta:400,900,400italic,900italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="public/css/styling.css">
 
 		<link rel="shortcut icon" href="public/images/favicon.ico" type="image/ico">
 
-		<script type="text/javascript" src="public/js/foresight.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Enriqueta:400,700|Coustard:900' rel='stylesheet' type='text/css'>
+
+		<link rel="shortcut icon" href="public/images/favicon.ico" type="image/ico">
+
 		<script src="public/js/modernizr.js"></script>
 
 	</head>
 
 	<body>
+		<header class="wrap">
+			<h1>Sassify!</h1>
+			<h2>Syntactically Awesome Stylesheets on the fly...</h2>
+		</header>
 
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&appId=302507796515197";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
+		<div class="wrap intro">
+			<p class="with-letter"><span class="letter">M</span>ost frontenders heard bout Sass; some got hooked, many chose Less, and majority stucks with overload informations about how awesome it is, but have no clue in how to start using it on their projects.</p>
 
-		<div class="wrap">
-			<header id="parallax">
-				<h1>
-					<span class="sub">The World of</span>
-					Pris Roos
-					<span class="by">~ by <a href="http://ivanasetiawan.com" target="_blank">Ivana Setiawan</a> ~</span>
-				</h1>
-			</header>
+			<p>The main goal of this article is to guide frontenders who are interested in using Sass NOW. Yes, you will have a project running Sass within the next 10 to 15 minutes.</p>
 
-			<div class="text intro">
-				<p class="with_letter">
-					<span class="letter">S</span>he is an Amsterdam based artist born in 1984; her style is rather unique, she defines art in less abstract way <span class="note">[with an intriguing style]</span> that combines both left and right hemisphere part of the brain. Graduated in 2010 in Communication and Multimedia Design, she later decided to pursue her childhood dream to be an artist instead.
-				</p>
+			<p>Excited? on fire?! Awesome! Read on!</p>
 
-				<p>
-					Amazed by her works, I approached her in person for an interview session. Below is an article I wrote as a result of chilling together on her couch, for a little over fifty minutes, at her cozy apartment in Amsterdam.
-				</p>
-
-				<figure class="wide">
-					<img data-src="public/images/pris.jpg" data-width="500" data-height="380" class="fs-img">
-					<noscript>
-						<img src="public/images/pris.jpg">
-					</noscript>
-					<figcaption>Pris Roos</figcaption>
-				</figure>
-			</div>
-
-			<div class="text">
-				<h2>~ Introducing, Pris Roos ~</h2>
-				<p class="note"><em>Note:</em> The interview was done on Sunday afternoon, mid June 2012. Being in her workspace was something really inspiring, motivating yet warm; it is part of the living room with a lot of drawings on the wall and a bookshelve that seems to be attached naturally as part of the workspace. We talked about her quick history, inspirations, and goals in the future. Here is how things started:</p>
-
-				<p class="with_letter"><span class="letter">B</span>orn in a business family, things didn't start too smooth for her: "I always wanted to be an artist since when I was a kid, but my parents didn't support me - they didn't really see the future of it". Not only that, she admitted that she got distracted during her puberty. "Boys and my look was way more important back then" she jestingly said. With that, her destined passion was on hold for several years.</p>
-
-				<p>Fast forward, in 2011 she finally committed to draw and dedicate herself as an artist; she learns to believe that people will be whoever they are gonna be despite their surroundings. One interesting discussion we touched was about the necessity of education, Pris wishes that she went to art school - unfortunately she did not, however she affirmed: "That shouldn't discourage anyone from doing what they are passionate about".
-				</p>
-			</div>
-
-			<div class="text">
-				<h2>~ Growing &amp; Inspiration ~</h2>
-				<p class="with_letter">
-					<span class="letter">H</span>er key to develop so fast is no shortcut, she draws a lot. Like a lot. She aims perfection with persistency and hard work. "It's all about doing it", she said. Being an autodidact artist, Pris started her style with lack of basic skills - such as proportion and perspective, deciphering shadow, highlights, and gradations of tone. This was something crucial that she needs to catch up, luckily she manages to handle this by itensively educating herself with books, going to several art workshops, and interchange informations with fellow artists.</p>
-
-				<p>No doubt, one of the biggest challenges to grow as an artist is to find inspirations; I got curious and asked her directly about her opinion in finding inspirations. "Inspiration comes from everywhere - if you define yourself as an artist and having an excuse such as 'I am not inspired yet...' then go out and find your inspirations". With this as a subject, Pris recommended one of her favorite books called <a href="http://bit.ly/OcZWYH" target="_blank">"The Creative Habit: Learn It and Use It for Life"</a> by Twyla Tharp. She also added "Do what you are afraid of doing" that's one of her mottos in gaining more skills.</p>
-			</div>
-	</noscript>
-			<div class="figures">
-				<figure>
-					<img data-src="public/images/workspace.jpg" data-width="320" data-height="270" class="fs-img" alt="Pris Roos - workspace">
-					<noscript>
-						<img src="public/images/workspace.jpg" alt="Pris Roos - workspace">
-					</noscript>
-					<figcaption>Workspace</figcaption>
-				</figure>
-				<figure>
-					<img data-src="public/images/exhibition.jpg" data-width="320" data-height="270" class="fs-img" alt="Pris Roos - exhibition">
-					<noscript>
-						<img src="public/images/exhibition.jpg" alt="Pris Roos - exhibition">
-					</noscript>
-					<figcaption>Exhibition</figcaption>
-				</figure>
-				<figure>
-					<img data-src="public/images/rhino.jpg" data-width="320" data-height="270" class="fs-img" alt="Pris Roos - Rhinoceros">
-					<noscript>
-						<img src="public/images/rhino.jpg" alt="Pris Roos - Rhinoceros">
-					</noscript>
-					<!-- <figcaption>Rhinoceros</figcaption> -->
-				</figure>
-			</div>
-
-			<div class="text">
-				<h2>~ Future projects ~</h2>
-
-				<p class="with_letter"><span class="letter">P</span>ris is currently working on her summer collection called "The Big Five". The concept is to draw five most difficult animals in Africa to hunt on foot - her goal is to rise awareness to the people. She is also having a goal to find several galleries to exhibit her artworks. Her latest exhibition's happening on Sunday, July 29th 2012 at Walls Gallery in Amsterdam.</p>
-
-				<div class="share">
-					<p>Show some love:</p>
-					<div>
-						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/NlG6G7" data-text="Collection of &quot;Motivational people you should check out&quot; - Pris Roos" data-count="none">Tweet</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					</div>
-					<div>
-						<a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fbit.ly%2FNlG6G7&media=http%3A%2F%2Fivanasetiawan.com%2Fprisroos%2Fpublic%2Fimages%2Fchameleon.jpg&description=Pris%20Roos%3A%20prisroos.com" class="pin-it-button" count-layout="none"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
-					</div>
-
-					<div class="last-child">
-						<div class="fb-like" data-href="http://bit.ly/NlG6G7" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="trebuchet ms"></div>
-					</div>
-				</div>
-
-			</div>
+			<p class="note">Please keep in mind that this article only covers real basic of Sass &amp; Compass for Sass newbies. I am planning on writing more about how to use them in the future, but not in this version.</p>
 
 		</div>
 
-		<footer>
-			<div class="chameleon-tree"><img src="public/images/chameleon-on-tree.jpg" alt="Pris Roos - Chameleon on tree" /></div>
-			<div class="wrap">
-				<blockquote class="full">"Now The Big Five are endangered because of the greed of the human being. In my concept the five wild animals are warriors in the war against hunters. The enemy is captured, or scared to come out to hurt them. The lion, leopard, rhinoceros, elephant and cape buffalo are victorious."
-				<span>~ Pris Roos</span>
-				</blockquote>
-				<p>
-					All images belong to <a href="http://prisroos.com" target="_blank">Pris Roos</a> - adapted by <a href="http://ivanasetiawan.com" target="_blank">Ivana</a> <br>licensed under <a href="http://creativecommons.org/licenses/by/2.0/" target="_blank">Attribution 2.0 Generic (CC BY 2.0)</a>
-				</p>
-				<p class="small">~ Collection of: "Motivational people you should check out" ~</p>
-			</div>
+		<section class="wrap content">
+			<h2>~ Why Sass? ~</h2>
+			<p>There are a lot of discussions going on about Sass vs. Less. Most developers I met are on Less' side and
+			I would like to persuade them to take a peek a bit on Sass; two of the main reasons are because of <a href="http://compass-style.org/" target="_blank">Compass</a> &amp; also... Sass is more logical.</p>
+
+			<p>Wait... did I hear "Why?!"</p>
+
+			<p>So here is the truth; indeed Less has what Sass has(mixin, extend, you-name-it), but the way Less work is different than Sass.
+			I am not planning on explaining the difference here, since there are many other experienced developer out there blogging about this topic.
+			One of the best explanations I really like is from <a href="http://css-tricks.com/sass-vs-less/" target="_blank">Chris Coyier</a>. Take a good read on it, seriously.</p>
+
+			<h2>~ Step by Step ~</h2>
+			<p>So you are convinced and want to try Sass now. I assure you this will be super easy and quick, let's do it now.</p>
+
+			<ol class="step-by-step">
+				<li>
+					<h3>Step 1</h3>
+					<p>First things first, let's decide on the compiler. There are several options, such as:</p>
+
+					<ul>
+						<li><a href="http://compass-style.org/" target="_blank">Compass</a> compiler</li>
+						<li><a href="http://mhs.github.com/scout-app/" target="_blank">Scout App</a>  compiler</li>
+						<li><a href="http://incident57.com/codekit/" target="_blank">CodeKit</a> - an amazing tool for developers. It's not only compiling Sass &amp; Compass but also Haml, Less, Stylus, Jade, &amp; CoffeeScript. They also have a livereload feature, super handy. Def recommended!($25)</li>
+						<li>And many other sizzle out there (that I haven't tried)</li>
+					</ul>
+
+					<p class="note">* I personally use Compass because it is easier for me and I don't have to install any app on my mac; however I would recommend Scout for people who prefer easy UI(Sass &amp; Compass) - and CodeKit for people who are not only using Sass &amp; Compass but also Haml, CoffeeScript, etc.*</p>
+
+					<p>Using Scout App is super easy, all you have to do is go to their website and download the app. Everything is straight forward: add desired projects on the left(1), configure it on the right(2), and click "Log" on top right to see console messages(3).</p>
+
+					<figure>
+						<img src="public/images/scoutapp.jpg" alt="Scout App">
+						<figcaption>ScoutApp image: see image 1, 2, &amp; 3</figcaption>
+					</figure>
+
+					<p>Using Compass is slightly different, but equally easy. All you have to do is adding config.rb on your project folder. See below:</p>
+
+					<figure class="config">
+						<img src="public/images/config.jpg" alt="config.rb">
+						<figcaption>Project structure for Sassify!</figcaption>
+					</figure>
+
+					<p>Then paste the code below on config.rb(please adjust accordingly to your project structure):</p>
+					<code>
+						<span class="comment"># Require any additional compass plugins here.</span>
+						<span class="comment"># Set this to the root of your project when deployed:</span>
+						http_path = "/"<br>
+						<span class="comment"># Path for images</span>
+						http_images_path = "/images/"<br>
+						http_generated_images_path = "/images/"<br>
+						<br>
+						css_dir = "public/css"<br>
+						sass_dir = "sass"<br>
+						images_dir = "public/images"<br>
+						javascripts_dir = "public/js"<br>
+						<br>
+						output_style = :compressed<br>
+						<br>
+						<span class="comment"># To enable relative paths to assets via compass helper functions. Uncomment:</span>
+						<span class="comment"># relative_assets = true</span>
+						<span class="comment"># To disable debugging comments that display the original location of your selectors. Uncomment:</span>
+						<span class="comment"># line_comments = false</span>
+						<span class="comment"># If you prefer the indented syntax, you might want to regenerate this</span>
+						<span class="comment"># project again passing --syntax sass, or you can uncomment this:</span>
+						<span class="comment"># preferred_syntax = :sass</span>
+						<span class="comment"># and then run:</span>
+						<span class="comment"># sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass</span>
+					</code>
+				</li>
+
+				<li>
+					<h3>Step 2</h3>
+					<p>After adding config.rb on your project, go to Terminal => project folder => type "compass watch". BAM! Compass is compiling your Sass files.</p>
+					<p class="note">* Make sure you already created a sass file inside your sass folder, otherwise you will see error message on terminal when you type "compass watch" *</p>
+					<figure class="compasswatch">
+						<img src="public/images/compasswatch.jpg" alt="Compass">
+						<figcaption>Example, using my Sassify! project</figcaption>
+					</figure>
+
+					<p>Now, let's setup basic Sass for a project.</p>
+					<code>
+						<span class="comment">
+							// Importing Compass
+						</span>
+						@import "compass"
+						<span class="comment">/* Reset is optional */</span>
+						@import "compass/reset"
+						<br><br>
+
+						<span class="comment">
+							// Mixins are defined with the @mixin(also "=") directive. It’s followed by the name of the mixin and optionally the arguments, and a block containing the contents of the mixin. For better explanation, please go <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#defining_a_mixin" target="_blank">here</a>.
+						</span>
+						=retina-image($image, $ext, $resolution, $properties: false)<br>
+							<span class="indent-1">background: url(../images/#{$image}.#{$ext}) $properties</span>
+							<span class="indent-1">@media only screen and (-webkit-device-pixel-ratio: 2)</span>
+								<span class="indent-2">background: url(../images/#{$image}_2x.#{$ext}) $properties</span>
+								<span class="indent-2">background-size: $resolution</span>
+						<br>
+
+						<span class="comment">
+							// Fleximage is for fluid image
+						</span>
+						=fleximage<br>
+							<span class="indent-1">max-width: 100%</span>
+							<span class="indent-1">width: 100%</span>
+							<span class="indent-1">height: auto</span>
+						<br>
+
+						<span class="comment">
+							// Define variables
+						</span>
+						$fontFamily: 'Enriqueta', Georgia, serif<br>
+						$titleFont: 'Coustard', cursive, Georgia, serif<br>
+						$fontColor: #111<br>
+						$altColor: #0070b8<br>
+						$alertColor: #c30c30<br>
+						<br>
+
+						<span class="comment">
+							// Text selection styling
+						</span>
+						body<br>
+							<span class="indent-1">font-family: $fontFamily</span>
+							<span class="comment indent-1">/* The font-size is now 0.625 * 16px = 10px. */</span>
+							<span class="indent-1">font-size: 0.625em</span>
+							<span class="comment indent-1">/* The leading is now 25 pixels. */</span>
+							<span class="indent-1">line-height: 2.5em</span>
+							<span class="indent-1">color: $fontColor</span>
+					</code>
+				</li>
+
+				<li>
+					<h3>Step 3</h3>
+					<p>Congratulation! now you are officially using Sass!
+					<span class="note">* imagine me patting each one of you on the back *</span></p>
+					<p>The wisest thing to do now is to go <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html" target="_blank">here</a> and dive into Sass a bit. I would suggest to start reading about <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#defining_a_mixin" target="_blank">@mixin</a>, <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#extend" target="_blank">@extend</a>, <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#media" target="_blank">@media</a>, and <a href="http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#control_directives" target="_blank">Control Directives</a>.</p>
+					<p class="note">* Control Directives are really amazing! See figure below as an example. *</p>
+
+					<figure class="each">
+						<img src="public/images/each.jpg" alt="Control Directive - @each">
+						<figcaption>Refactoring old project to Sass</figcaption>
+					</figure>
+
+					<p>OK, now the exciting news - one of the major reasons why you should pick Sass: <a href="http://compass-style.org/" target="_blank">Compass</a>!</p>
+				</li>
+			</ol>
+
+			<h2>~ Compass ~</h2>
+			<p>Compass provides cross browser CSS3 mixins, basic mixins for common typography patterns, and basic mixins for common styling patterns. These make things super easy for frontender, here is a simple example below:</p>
+
+			<code>
+				.radius-box<br>
+				<span class="indent-1">display: inline-block</span>
+				<span class="indent-1">padding: 10px</span>
+				<span class="indent-1">color: white</span>
+				<span class="indent-1">background: black</span>
+				<span class="comment indent-1">
+					// See explanation <a href="http://compass-style.org/examples/compass/css3/border_radius/" target="_blank">here</a>
+				</span>
+				<span class="indent-1">+border-radius(5px)</span>
+				<span class="comment indent-1">
+					// See explanation <a href="http://compass-style.org/examples/compass/css3/gradient/" target="_blank">here</a>
+				</span>
+				<span class="indent-1">+background-image(linear-gradient(white, #cccccc 30%, #bbbbbb 70%, #aaaaaa))</span>
+				<br>
+				.intro-text
+				<span class="indent-1">font-family: $fontFamily</span>
+				<span class="indent-1">font-size: 2em</span>
+				<span class="comment indent-1">
+					// See explanation <a href="http://compass-style.org/examples/compass/css3/text_shadow/" target="_blank">here</a>
+				</span>
+				<span class="indent-1">+text-shadow(#rgba(0, 0, 0, 0.5) 0 1px 1px)</span>
+			</code>
+
+			<p>Spiffy ey? bet you're amazed and excited to start playing around with Sass and Compass now! Enjoy it! and if you have any comments regarding this simple article, please do not hesitate to mail me <a href="mailto:ivana.setiawan@gmail.com" target="_blank">here</a>.</p>
+		</section>
+
+		<footer class="wrap">
+			<p>Article passionately written by <a href="http://ivanasetiawan.com" target="_blank">Ivana. Setiawan</a>.</p>
+			<p>Please excuse me for typo and/or grammar mistakes.<br>It's 02:22 a.m. in Amsterdam and I miss my bed dearly...</p>
 		</footer>
-
-		<div class="border top"></div>
-		<div class="border right"></div>
-		<div class="border left"></div>
-		<div class="border bottom"></div>
-
-		<script type="text/javascript" src="public/js/jquery.js"></script>
-		<script type="text/javascript" src="public/js/application.js"></script>
-
-	<!-- Google Analytic -->
-	<script type="text/javascript">
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-	try{
-	var pageTracker = _gat._getTracker("UA-11910619-1");
-	pageTracker._trackPageview();
-	} catch(err) {}
-	</script>
-
-	<!-- Pinterest -->
-	<script type="text/javascript" src="http://assets.pinterest.com/js/pinit.js"></script>
-
 	</body>
-
 </html>
